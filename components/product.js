@@ -1,11 +1,7 @@
-import styles from '../src/app/page.module.css';
-import {Products} from '../src/app/product/page';
-interface IProductProps {
-  data: Products
-}
+import styles from "../styles/Main.module.css";
 
-const Product: React.FC<IProductProps> =  ({ data }) => {
-  
+const Product =  ({ data }) => {
+    
   return (
       <div className={styles.card}>
         <div className={styles.imageContainer}>
